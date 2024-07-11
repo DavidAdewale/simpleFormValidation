@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BBBF9F922C400470001C4A74 /* SimpleFormValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F912C400470001C4A74 /* SimpleFormValidationApp.swift */; };
-		BBBF9F942C400470001C4A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F932C400470001C4A74 /* ContentView.swift */; };
+		BBBF9F942C400470001C4A74 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F932C400470001C4A74 /* LoginView.swift */; };
 		BBBF9F962C400471001C4A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBF9F952C400471001C4A74 /* Assets.xcassets */; };
 		BBBF9F992C400471001C4A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBF9F982C400471001C4A74 /* Preview Assets.xcassets */; };
 		BBBF9FA32C400471001C4A74 /* SimpleFormValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FA22C400471001C4A74 /* SimpleFormValidationTests.swift */; };
 		BBBF9FAD2C400471001C4A74 /* SimpleFormValidationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FAC2C400471001C4A74 /* SimpleFormValidationUITests.swift */; };
 		BBBF9FAF2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FAE2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift */; };
+		BBBF9FBD2C4005A1001C4A74 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FBC2C4005A1001C4A74 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		BBBF9F8E2C400470001C4A74 /* SimpleFormValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFormValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBF9F912C400470001C4A74 /* SimpleFormValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormValidationApp.swift; sourceTree = "<group>"; };
-		BBBF9F932C400470001C4A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBBF9F932C400470001C4A74 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BBBF9F952C400471001C4A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBBF9F982C400471001C4A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBBF9F9E2C400471001C4A74 /* SimpleFormValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFormValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		BBBF9FA82C400471001C4A74 /* SimpleFormValidationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFormValidationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBF9FAC2C400471001C4A74 /* SimpleFormValidationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormValidationUITests.swift; sourceTree = "<group>"; };
 		BBBF9FAE2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormValidationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBBF9FBC2C4005A1001C4A74 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		BBBF9F902C400470001C4A74 /* SimpleFormValidation */ = {
 			isa = PBXGroup;
 			children = (
+				BBBF9FBB2C40058E001C4A74 /* Extensions */,
 				BBBF9F912C400470001C4A74 /* SimpleFormValidationApp.swift */,
-				BBBF9F932C400470001C4A74 /* ContentView.swift */,
+				BBBF9F932C400470001C4A74 /* LoginView.swift */,
 				BBBF9F952C400471001C4A74 /* Assets.xcassets */,
 				BBBF9F972C400471001C4A74 /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				BBBF9FAE2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift */,
 			);
 			path = SimpleFormValidationUITests;
+			sourceTree = "<group>";
+		};
+		BBBF9FBB2C40058E001C4A74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9FBC2C4005A1001C4A74 /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBF9F942C400470001C4A74 /* ContentView.swift in Sources */,
+				BBBF9F942C400470001C4A74 /* LoginView.swift in Sources */,
+				BBBF9FBD2C4005A1001C4A74 /* String+Extensions.swift in Sources */,
 				BBBF9F922C400470001C4A74 /* SimpleFormValidationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

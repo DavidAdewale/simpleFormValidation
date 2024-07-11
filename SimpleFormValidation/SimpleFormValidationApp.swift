@@ -11,7 +11,7 @@ import SwiftUI
 struct SimpleFormValidationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
