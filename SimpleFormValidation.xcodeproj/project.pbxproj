@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBF9F922C400470001C4A74 /* SimpleFormValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F912C400470001C4A74 /* SimpleFormValidationApp.swift */; };
+		BBBF9F942C400470001C4A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9F932C400470001C4A74 /* ContentView.swift */; };
+		BBBF9F962C400471001C4A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBF9F952C400471001C4A74 /* Assets.xcassets */; };
+		BBBF9F992C400471001C4A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBF9F982C400471001C4A74 /* Preview Assets.xcassets */; };
+		BBBF9FA32C400471001C4A74 /* SimpleFormValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FA22C400471001C4A74 /* SimpleFormValidationTests.swift */; };
+		BBBF9FAD2C400471001C4A74 /* SimpleFormValidationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FAC2C400471001C4A74 /* SimpleFormValidationUITests.swift */; };
+		BBBF9FAF2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF9FAE2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBBF9F9F2C400471001C4A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBBF9F862C400470001C4A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBF9F8D2C400470001C4A74;
+			remoteInfo = SimpleFormValidation;
+		};
+		BBBF9FA92C400471001C4A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBBF9F862C400470001C4A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBF9F8D2C400470001C4A74;
+			remoteInfo = SimpleFormValidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBBF9F8E2C400470001C4A74 /* SimpleFormValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFormValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBF9F912C400470001C4A74 /* SimpleFormValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormValidationApp.swift; sourceTree = "<group>"; };
+		BBBF9F932C400470001C4A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBBF9F952C400471001C4A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBBF9F982C400471001C4A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBBF9F9E2C400471001C4A74 /* SimpleFormValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFormValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBF9FA22C400471001C4A74 /* SimpleFormValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormValidationTests.swift; sourceTree = "<group>"; };
+		BBBF9FA82C400471001C4A74 /* SimpleFormValidationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFormValidationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBF9FAC2C400471001C4A74 /* SimpleFormValidationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormValidationUITests.swift; sourceTree = "<group>"; };
+		BBBF9FAE2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormValidationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBBF9F8B2C400470001C4A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBF9F9B2C400471001C4A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBF9FA52C400471001C4A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBBF9F852C400470001C4A74 = {
+			isa = PBXGroup;
+			children = (
+				BBBF9F902C400470001C4A74 /* SimpleFormValidation */,
+				BBBF9FA12C400471001C4A74 /* SimpleFormValidationTests */,
+				BBBF9FAB2C400471001C4A74 /* SimpleFormValidationUITests */,
+				BBBF9F8F2C400470001C4A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBBF9F8F2C400470001C4A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9F8E2C400470001C4A74 /* SimpleFormValidation.app */,
+				BBBF9F9E2C400471001C4A74 /* SimpleFormValidationTests.xctest */,
+				BBBF9FA82C400471001C4A74 /* SimpleFormValidationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBBF9F902C400470001C4A74 /* SimpleFormValidation */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9F912C400470001C4A74 /* SimpleFormValidationApp.swift */,
+				BBBF9F932C400470001C4A74 /* ContentView.swift */,
+				BBBF9F952C400471001C4A74 /* Assets.xcassets */,
+				BBBF9F972C400471001C4A74 /* Preview Content */,
+			);
+			path = SimpleFormValidation;
+			sourceTree = "<group>";
+		};
+		BBBF9F972C400471001C4A74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9F982C400471001C4A74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBBF9FA12C400471001C4A74 /* SimpleFormValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9FA22C400471001C4A74 /* SimpleFormValidationTests.swift */,
+			);
+			path = SimpleFormValidationTests;
+			sourceTree = "<group>";
+		};
+		BBBF9FAB2C400471001C4A74 /* SimpleFormValidationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF9FAC2C400471001C4A74 /* SimpleFormValidationUITests.swift */,
+				BBBF9FAE2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift */,
+			);
+			path = SimpleFormValidationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBBF9F8D2C400470001C4A74 /* SimpleFormValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBF9FB22C400471001C4A74 /* Build configuration list for PBXNativeTarget "SimpleFormValidation" */;
+			buildPhases = (
+				BBBF9F8A2C400470001C4A74 /* Sources */,
+				BBBF9F8B2C400470001C4A74 /* Frameworks */,
+				BBBF9F8C2C400470001C4A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleFormValidation;
+			productName = SimpleFormValidation;
+			productReference = BBBF9F8E2C400470001C4A74 /* SimpleFormValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBBF9F9D2C400471001C4A74 /* SimpleFormValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBF9FB52C400471001C4A74 /* Build configuration list for PBXNativeTarget "SimpleFormValidationTests" */;
+			buildPhases = (
+				BBBF9F9A2C400471001C4A74 /* Sources */,
+				BBBF9F9B2C400471001C4A74 /* Frameworks */,
+				BBBF9F9C2C400471001C4A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBF9FA02C400471001C4A74 /* PBXTargetDependency */,
+			);
+			name = SimpleFormValidationTests;
+			productName = SimpleFormValidationTests;
+			productReference = BBBF9F9E2C400471001C4A74 /* SimpleFormValidationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBBF9FA72C400471001C4A74 /* SimpleFormValidationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBF9FB82C400471001C4A74 /* Build configuration list for PBXNativeTarget "SimpleFormValidationUITests" */;
+			buildPhases = (
+				BBBF9FA42C400471001C4A74 /* Sources */,
+				BBBF9FA52C400471001C4A74 /* Frameworks */,
+				BBBF9FA62C400471001C4A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBF9FAA2C400471001C4A74 /* PBXTargetDependency */,
+			);
+			name = SimpleFormValidationUITests;
+			productName = SimpleFormValidationUITests;
+			productReference = BBBF9FA82C400471001C4A74 /* SimpleFormValidationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBBF9F862C400470001C4A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BBBF9F8D2C400470001C4A74 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BBBF9F9D2C400471001C4A74 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BBBF9F8D2C400470001C4A74;
+					};
+					BBBF9FA72C400471001C4A74 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BBBF9F8D2C400470001C4A74;
+					};
+				};
+			};
+			buildConfigurationList = BBBF9F892C400470001C4A74 /* Build configuration list for PBXProject "SimpleFormValidation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBBF9F852C400470001C4A74;
+			productRefGroup = BBBF9F8F2C400470001C4A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBBF9F8D2C400470001C4A74 /* SimpleFormValidation */,
+				BBBF9F9D2C400471001C4A74 /* SimpleFormValidationTests */,
+				BBBF9FA72C400471001C4A74 /* SimpleFormValidationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBBF9F8C2C400470001C4A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF9F992C400471001C4A74 /* Preview Assets.xcassets in Resources */,
+				BBBF9F962C400471001C4A74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBF9F9C2C400471001C4A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBF9FA62C400471001C4A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBF9F8A2C400470001C4A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF9F942C400470001C4A74 /* ContentView.swift in Sources */,
+				BBBF9F922C400470001C4A74 /* SimpleFormValidationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBF9F9A2C400471001C4A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF9FA32C400471001C4A74 /* SimpleFormValidationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBF9FA42C400471001C4A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF9FAD2C400471001C4A74 /* SimpleFormValidationUITests.swift in Sources */,
+				BBBF9FAF2C400471001C4A74 /* SimpleFormValidationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBBF9FA02C400471001C4A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBBF9F8D2C400470001C4A74 /* SimpleFormValidation */;
+			targetProxy = BBBF9F9F2C400471001C4A74 /* PBXContainerItemProxy */;
+		};
+		BBBF9FAA2C400471001C4A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBBF9F8D2C400470001C4A74 /* SimpleFormValidation */;
+			targetProxy = BBBF9FA92C400471001C4A74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBBF9FB02C400471001C4A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBBF9FB12C400471001C4A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBBF9FB32C400471001C4A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleFormValidation/Preview Content\"";
+				DEVELOPMENT_TEAM = SV7C5B9J9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SimpleFormValidation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBBF9FB42C400471001C4A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleFormValidation/Preview Content\"";
+				DEVELOPMENT_TEAM = SV7C5B9J9Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SimpleFormValidation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBBF9FB62C400471001C4A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV7C5B9J9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SimpleFormValidationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFormValidation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleFormValidation";
+			};
+			name = Debug;
+		};
+		BBBF9FB72C400471001C4A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV7C5B9J9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SimpleFormValidationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFormValidation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleFormValidation";
+			};
+			name = Release;
+		};
+		BBBF9FB92C400471001C4A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV7C5B9J9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SimpleFormValidationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleFormValidation;
+			};
+			name = Debug;
+		};
+		BBBF9FBA2C400471001C4A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV7C5B9J9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal-Project.SimpleFormValidationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleFormValidation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBBF9F892C400470001C4A74 /* Build configuration list for PBXProject "SimpleFormValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBF9FB02C400471001C4A74 /* Debug */,
+				BBBF9FB12C400471001C4A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBF9FB22C400471001C4A74 /* Build configuration list for PBXNativeTarget "SimpleFormValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBF9FB32C400471001C4A74 /* Debug */,
+				BBBF9FB42C400471001C4A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBF9FB52C400471001C4A74 /* Build configuration list for PBXNativeTarget "SimpleFormValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBF9FB62C400471001C4A74 /* Debug */,
+				BBBF9FB72C400471001C4A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBF9FB82C400471001C4A74 /* Build configuration list for PBXNativeTarget "SimpleFormValidationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBF9FB92C400471001C4A74 /* Debug */,
+				BBBF9FBA2C400471001C4A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBBF9F862C400470001C4A74 /* Project object */;
+}
